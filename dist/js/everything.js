@@ -30889,7 +30889,7 @@ $provide.value("$locale", {
 
 !window.angular.$$csp().noInlineStyle && window.angular.element(document.head).prepend('<style type="text/css">@charset "UTF-8";[ng\\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>');
 ;
-"use strict"; var emulatorServicesCompilationDate = "Sat Feb 11 15:50:04 EST 2017";
+"use strict"; var emulatorServicesCompilationDate = "Tue Feb 14 09:21:41 EST 2017";
 
 ;
 var gamingPlatform;
@@ -32100,7 +32100,7 @@ var game;
         return proposals;
     }
     function updateUI(params) {
-        log.info("Game got updateUI:", params);
+        log.info("Game got updateUI and updTED:", params);
         var playerIdToProposal = params.playerIdToProposal;
         // Only one move/proposal per updateUI
         game.didMakeMove = playerIdToProposal && playerIdToProposal[game.yourPlayerInfo.playerId] != undefined;
